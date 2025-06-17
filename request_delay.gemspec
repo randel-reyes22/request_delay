@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative "lib/request_delay/version"
-require_relative "lib/request_delay/waiter"
+# require_relative "lib/request_delay/version"
+# require_relative "lib/request_delay/waiter"
 
 Gem::Specification.new do |spec|
   spec.name          = "request_delay"
