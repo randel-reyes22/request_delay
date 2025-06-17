@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
-# require_relative "lib/request_delay/version"
-# require_relative "lib/request_delay/waiter"
+require_relative "lib/request_delay/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "request_delay"
@@ -13,9 +12,15 @@ Gem::Specification.new do |spec|
   spec.description   = "A micro-gem to pause execution based on Time.current without using sleep."
   spec.homepage      = "https://github.com/yourname/request_delay"
   spec.license       = "MIT"
+  spec.required_ruby_version = ">= 2.5.0"
+
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = spec.homepage
 
   spec.files         = Dir["lib/**/*.rb"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activesupport", "~> 8.0", ">= 8.0.2"
+  spec.add_dependency "activesupport", ">= 6.0"
 end
