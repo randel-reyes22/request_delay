@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Non-blocking Time.current-based delay loop"
   spec.description   = "A micro-gem to pause execution based on Time.current without using sleep."
-  spec.homepage      = "https://github.com/yourname/request_delay"
+  spec.homepage      = "https://github.com/randel-reyes22/request_delay"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 3.1"
 
