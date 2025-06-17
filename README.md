@@ -17,10 +17,10 @@ gem install request_delay
 require "request_delay"
 
 # Wait 10 seconds (default)
-RequestDelay::Waiter.until
+delay
 
 # Wait custom seconds
-RequestDelay::Waiter.until(5)
+delay(5)
 
 ## Development
 
